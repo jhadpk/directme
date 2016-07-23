@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/deepak.jha/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/deepak.jha/DirectMe/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-231c9544043ef8bb54e1863831126081dbffebce.jar" />
+    </item>
+    <item
+        jar="/Users/deepak.jha/DirectMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/deepak.jha/DirectMe/app/build/intermediates/pre-dexed/debug/classes-5dc72c643652f3723e1b04b8532751749abe154c.jar" />
+    </item>
+    <item
+        jar="/Users/deepak.jha/DirectMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/deepak.jha/DirectMe/app/build/intermediates/pre-dexed/debug/classes-63fccc8eff7de737aac97b712784ec040cb06a0e.jar" />
+    </item>
+    <item
+        jar="/Users/deepak.jha/DirectMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/deepak.jha/DirectMe/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-f8abdab7aba433b2fd769ff99050720cb25dcc5d.jar" />
+    </item>
+    <item
+        jar="/Users/deepak.jha/DirectMe/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/deepak.jha/DirectMe/app/build/intermediates/pre-dexed/debug/classes-4453dc1cdea09de0241bd8748d636bee7cc25b83.jar" />
+    </item>
+
+</items>

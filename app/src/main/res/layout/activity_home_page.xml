@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_vertical">
+            <TextView android:id="@+id/restaurantsearch"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Find Restaurants"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffffff"
+                android:background="#ffb12f00" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <TextView android:id="@+id/eventsearch"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Find Events"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffffff"
+                android:background="#ffb12f00" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

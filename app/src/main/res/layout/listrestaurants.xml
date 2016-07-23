@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:padding="6dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/greybg"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+        <TextView
+            android:id="@+id/restaurantname"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="6dip"
+            android:textSize="18dp"
+            android:text="Name"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff000000"
+            android:contentDescription="TODO"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/population"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="15dp"
+                    android:text="population"
+                    android:textColor="#ff000000"
+                    android:contentDescription="TODO"/>
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="distance"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"/>
+
+            </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/bookuber">
+            <ImageView android:src="@drawable/uberpng1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Book\nUber"
+                android:id="@+id/ubertxt"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ff000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout> 
